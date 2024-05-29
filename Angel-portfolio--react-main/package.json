@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "/",
   "description": "A personal portfolio bootstrapped using React",
   "repository": "https://github.com/AngelHenriettaAboah/AH-portfolio",
   "author": "Angel Henrietta Aboah <aboahangel16@gmail.com>",
@@ -57,7 +57,7 @@
     ]
   },
   "engines": {
-    "node": "14.x"
+    "node": "20"
   },
   "devDependencies": {
     "emailjs": "^4.0.0",
