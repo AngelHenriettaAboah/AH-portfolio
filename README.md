@@ -10,9 +10,9 @@ This portfolio showcases my skills, projects, and experiences as a developer. It
 
 ## Content
 
-About Me section
-Portfolio section with project showcases
-Contact Me section with a contact form
+## About Me section
+## Portfolio section with project showcases
+## Contact Me section with a contact form
 
 ## Features
 
