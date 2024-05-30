@@ -1,4 +1,8 @@
-# Personal Portfolio Website built with React [![See Live Demo here](https://angel-henrietta-portfolio.netlify.app)]
+# Personal Portfolio Website built with React 
+
+Welcome to my awesome react portfolio! You can view the live demo of this project on Netlify.
+
+[View Live Demo](https://angel-henrietta-portfolio.netlify.app)
 
 
 ## Demo
