@@ -67,14 +67,39 @@
 
 @media (max-width: 1024px) {
   .skills-container {
-    width: 90%;
+    width: 85%;
     margin: 2rem auto;
+  }
+
+  .description-right {
+    padding-left: 15%;
   }
 }
 
 @media (max-width: 768px) {
   .skills-container {
-    width: 95%;
+    width: 80%;
     margin: 2rem auto;
+  }
+
+  .description-right {
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  .description-container {
+    align-items: center;
+  }
+
+  .description-left,
+  .description-right {
+    text-align: center;
+    padding-left: 0;
   }
 }
