@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable react-hooks/rules-of-hooks */
 import React from "react";
 import { Typography } from "@material-ui/core";
 import { useState } from "react";
@@ -7,41 +5,55 @@ import { useState } from "react";
 import "./SideNavbar.css";
 
 export const SideNavbar = () => {
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState("#");
+
+  const handleNavClick = (navItem) => {
+    setActiveNav(navItem);
+
+    // Scroll to the corresponding section
+    const element = document.getElementById(navItem.substring(1));
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav>
-      <a href="#" 
-        onClick={() => setActiveNav('#')}
-        className={activeNav === '#' ? 'active' : ''}
+      <a
+        href="#"
+        onClick={() => handleNavClick("#")}
+        className={activeNav === "#" ? "active" : ""}
       >
-        <Typography>
-          Home
-        </Typography>
+        <Typography>Home</Typography>
       </a>
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
+      <a
+        href="#works"
+        onClick={() => handleNavClick("#works")}
+        className={activeNav === "#works" ? "active" : ""}
       >
-        <Typography>
-          Projects
-        </Typography>
+        <Typography>Projects</Typography>
       </a>
-      <a href="#about" 
-        onClick={() => setActiveNav('#about')}
-        className={activeNav === '#about' ? 'active' : ''}
+      <a
+        href="#skills"
+        onClick={() => handleNavClick("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
       >
-        <Typography>
-          About
-        </Typography>
+        <Typography>Skills</Typography>
       </a>
-      <a href="#contact"
-        onClick={() => setActiveNav('#contact')}
-        className={activeNav === '#contact' ? 'active' : ''}
+
+      <a
+        href="#about"
+        onClick={() => handleNavClick("#about")}
+        className={activeNav === "#about" ? "active" : ""}
       >
-        <Typography>
-          Contact
-        </Typography>
+        <Typography>About</Typography>
+      </a>
+      <a
+        href="#contact"
+        onClick={() => handleNavClick("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
+        <Typography>Contact</Typography>
       </a>
     </nav>
   );

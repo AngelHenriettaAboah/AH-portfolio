@@ -6,6 +6,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import "./Works.css";
 
 // Import ../../assets/recentprojects/
+import landingPage from "../../assets/recentprojects/landingPage.png";
 import mealSharing from "../../assets/recentprojects/mealsharing.png";
 import travelPlanner from "../../assets/recentprojects/travelplanner.png";
 import movieApp from "../../assets/recentprojects/movieapp.png";
@@ -26,34 +27,42 @@ export const Works = () => {
   const projects = [
     {
       id: 1,
+      title: "Landing Page",
+      description: `The Landing Page was developed for Atomic Learning Systems as a group project for Hack Your Future final project designed to provide an engaging and informative experience for visitors. You can access the app <a href="https://atomic-learning-systems-hackyourfuture.onrender.com/#hero" target="_blank" rel="noopener noreferrer">here</a>.`,
+      alter: "Landing Page",
+      image: landingPage,
+    },
+
+    {
+      id: 2,
       title: "Meal Sharing",
       description: `The Meal Sharing App, developed for Hack Your Future Denmark, is a full-stack web application. It allows users to explore, reserve, and share meals seamlessly. You can access the app <a href="https://meal-sharing-fa4o.onrender.com" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "Meal-sharing App",
       image: mealSharing,
     },
     {
-      id: 2,
+      id: 3,
       title: "Travel Planner",
       description: `This is a cutting-edge application, built with React, aims to revolutionize the way people plan their trips. Whether you're organizing a quick weekend getaway or a detailed multi-city vacation, this app is here to help. You can access the app <a href="https://github.com/AngelHenriettaAboah/travel-planner" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "Travel Planner",
       image: travelPlanner,
     },
     {
-      id: 3,
+      id: 4,
       title: "Movie App",
       description: `This project was bootstrapped with Create React App. Browse through a vast collection, get personalized recommendations, and stay updated with the latest releases, all in one convenient platform. You can access the app <a href="https://github.com/AngelHenriettaAboah/movieApp" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "Movie App",
       image: movieApp,
     },
     {
-      id: 4,
+      id: 5,
       title: "Social Link App",
       description: `The Social Link App allows users to input their basic information and social media links, and then generates a shareable profile showcasing these links. You can access the app <a href="https://github.com/AngelHenriettaAboah/socialLink-app" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "Social Link App",
       image: socialLinkApp,
     },
     {
-      id: 5,
+      id: 6,
       title: "Quiz App",
       description: `This interactive Quiz App allows one to compete with friends. You can access the app <a href="https://quiz-patch-app.netlify.app" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "Quiz App",
@@ -61,7 +70,7 @@ export const Works = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Giphy App",
       description: `This giphy app provides a simple and intuitive interface for exploring diverse topics making it an entertaining tool for users to search for gifs. You can access the app <a href="https://github.com/AngelHenriettaAboah/gify-search-app" target="_blank" rel="noopener noreferrer">here</a>.`,
       alter: "giphy App",

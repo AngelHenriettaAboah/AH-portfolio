@@ -23,7 +23,7 @@ export const About = () => {
   const fullName = `${FirstName} ${
     MiddleName ? MiddleName + " " : ""
   }${LastName}`;
-  const aboutme = `I'm ${fullName}, a versatile developer passionate about taking on new and challenging projects. I'm dedicated to helping you build beautifully designed websites, with a focus primarily on web development.`;
+  const aboutme = `I'm ${fullName}, a versatile web developer passionate about taking on new and challenging projects. I'm dedicated to helping you build beautifully designed websites, with a focus primarily on web development.`;
 
   return (
     <section id="about">
