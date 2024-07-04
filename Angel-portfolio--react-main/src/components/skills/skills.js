@@ -14,6 +14,10 @@ import logo7 from "../../assets/logo7.png";
 import logo8 from "../../assets/logo8.png";
 import logo9 from "../../assets/logo9.png";
 import logo10 from "../../assets/logo10.png";
+import logo11 from "../../assets/logo11.png";
+import logo12 from "../../assets/logo12.png";
+import logo13 from "../../assets/logo13.png";
+import logo14 from "../../assets/logo14.png";
 
 const Skills = () => {
   const items = [
@@ -114,6 +118,47 @@ const Skills = () => {
         <div class="description-container">
           <span class="description-line description-left">I use MySQL to design and manage relational</span>
           <span class="description-line description-right">databases for various web applications.</span>
+        </div>
+      `,
+    },
+    {
+      id: 11,
+      logo: logo11,
+      description: `
+        <div class="description-container">
+          <span class="description-line description-left">I use Docker to create,</span>
+          <span class="description-line description-right">deploy, and run applications in containers.</span>
+        </div>
+      `,
+    },
+    {
+      id: 12,
+      logo: logo12,
+      description: `
+        <div class="description-container">
+          <span class="description-line description-left">ExpressJs is used to simplify the creation of server-side</span>
+          <span class="description-line description-right">applications by handling HTTP requests, routing, and middleware.</span>
+        </div>
+      `,
+    },
+    {
+      id: 13,
+      logo: logo13,
+      description: `
+        <div class="description-container">
+          <span class="description-line description-left">TypeScript is a strongly typed superset of 
+          </span>
+          <span class="description-line description-right">JavaScript that adds static types to the language.</span>
+        </div>
+      `,
+    },
+    {
+      id: 14,
+      logo: logo14,
+      description: `
+        <div class="description-container">
+          <span class="description-line description-left">API development and testing tool that simplifies</span>
+          <span class="description-line description-right">the process of designing, testing, and documenting APIs.</span>
         </div>
       `,
     },
